@@ -1,0 +1,54 @@
+.exercise-7a {
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 100px;  
+    margin-right: 1800px;
+}
+
+.exercise-7b {
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 1800px;
+    margin-bottom: 100px;
+}
+
+.exercise-7c {
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 220px;
+    margin-right: 1800px;
+    margin-bottom: 100px;
+}
+.bar-menu {
+    font-size: 14px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color:rgba(0, 0, 0, 0.212);
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 1800px;
+    margin-bottom: 100px;
+}
+
+.bar-menu::placeholder{
+    color: black;
+}
+
+.bar-google {
+    border: none;
+    font-size: 12px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    padding-right: 120px;
+    width: 320px;
+    height: 30px;
+    padding-left: 40px;
+    text-align: left;
+    border-radius: 20px;
+    margin-right: 1800px;
+    margin-bottom: 100px;
+}

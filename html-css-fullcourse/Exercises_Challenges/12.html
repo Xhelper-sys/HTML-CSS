@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Lesson 12 Exercises - Flexbox
+        </title>
+        <style>
+            p{
+                padding-bottom: 1000px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex; flex-direction: row;">
+            <div style="background-color: lightblue; width: 200px">200px</div>
+            <div style="background-color: lightpink; width: 75px">75px</div>
+        </div>
+
+
+        <div style="display: flex; flex-direction: row; margin-top:200px;">
+            <div style="background-color: lightblue; width: 50px">item 1</div>
+            <div style="background-color: lightpink; flex: 1">item 2</div>
+            <div style="background-color: lightblue; width: 75px">item 3</div>
+        </div>
+
+        <div style="display: flex; 
+        flex-direction: row; 
+        margin-top:200px; 
+        justify-content: space-between; 
+        width: 500px;
+        border-style: solid;
+        border-color: lightblue;
+        border-width: 2px">
+            <div style="background-color: lightpink;">item 1</div>
+            <div style="background-color: lightpink; ">item 2</div>
+            <div style="background-color: lightpink; ">item 3</div>
+             <div style="background-color: lightpink;">item 4</div>
+        </div>
+
+        <div style="display: flex; 
+        flex-direction: row; 
+        margin-top:200px; 
+        justify-content: space-between; 
+        width: 500px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 2px;
+        align-items: center;
+        height: 50px;">
+            <div style="background-color: lightpink;">item 1</div>
+            <div style="background-color: lightpink; ">item 2</div>
+        </div>
+    </body>
+</html>

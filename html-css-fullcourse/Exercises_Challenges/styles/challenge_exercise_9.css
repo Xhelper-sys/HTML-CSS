@@ -1,0 +1,76 @@
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+}
+
+.white-cat-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.section1 {
+    width: 200px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 200px;
+    margin-right: 1680px;
+}
+
+.name-1{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.mutual-1 {
+    color:rgb(148, 148, 148);
+    margin-bottom: 12px;
+}
+
+.add_friend {
+    color: white;
+    font-family: Arial;
+    background-color: rgb(105, 105, 240);
+    border: none;
+    font-size:16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-bottom: 12px;
+}
+
+.add_friend:hover {
+    opacity: 0.8;
+}
+
+.add_friend:active {
+    opacity: 0.6;
+}
+
+.section-9g-0 {
+    width: 200px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.2);
+}
+
+.section-9g {
+    width: 200px;
+    display: inline-block;
+    margin-left: 14px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.2);
+}

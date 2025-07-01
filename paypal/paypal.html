@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PayPal</title>
+        <style>
+            .en-tete-paypal {
+                height: 80px;
+                background-color: white;
+            }
+
+            .img-paypal {
+                width: 100px;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+
+            .img-paypal-box, .img-paypal {
+                display: inline-block;
+                margin-left: 130px;
+            }
+
+            .connexion-paypal, .ouvrir-un-compte-paypal{
+                border-radius: 25px;
+                border-style: solid;
+                cursor: pointer;
+                font-size: 16px;
+                font-family: Arial;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 25px;
+                padding-left: 25px;
+                transition: padding-left 0.15s,
+                padding-right 0.15s,
+                padding-top 0.15s,
+                padding-bottom 0.15s;
+                vertical-align: middle;
+            }
+
+            .connexion-paypal{
+                border-width: 3px;
+                border-color: black;
+                background-color: rgb(255, 255, 255);
+                font-weight: bold;
+            }
+
+            .ouvrir-un-compte-paypal {
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                border-width: 3px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 25px;
+                padding-left: 25px;
+                border-color: black;
+            }
+
+            .connexion-paypal:hover, .ouvrir-un-compte-paypal:hover{
+                padding-left: 27px;
+                padding-right: 27px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+            }
+
+            .ouvrir-un-compte-paypal:hover {
+                background-color: rgb(33, 212, 243);
+                color: black;
+                border-color: black;
+                border-width: 3px;
+            }
+
+            .button-paypal {
+                display: inline-block;
+            }
+            .aide-paypal {
+                display: inline-block;
+            }
+            .aide-text {
+                font-family: Arial;
+                font-size: 18px;
+                vertical-align:middle;
+            }
+
+            .chevreon-button {
+                font-size: 24px;
+            }
+
+            .menu-pseudo-deroulant {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            body {
+                background-color: rgb(0, 204, 255);
+            }
+
+            .button-menu, .button-menu-dev {
+                background-color: white;
+                font-size: 18px;
+                font-family: Arial;
+                border-style: solid;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 12px;
+                border-radius: 20px;
+                padding-right: 28px;
+                border: none;
+                transition: background-color 0.15s,
+                font-weight 0.15s;
+                cursor: pointer;
+            }
+
+            .button-menu:hover {
+                font-weight: 400;
+                background-color: #c8eeff;
+            }
+
+            .button-menu-dev {
+                padding-right: 12px;
+                transition: color 0.45s,
+                border-width 0.45s;
+            }
+
+            .button-menu-dev:hover {
+                color: rgb(16, 16, 187);
+                border-width: 1px;
+                border-color: rgb(180, 180, 180);
+                border-style: solid;
+            }
+
+            .chevron-button{
+                display:inline-block;
+                margin-left: 5px;
+                width: 9px;
+                margin-bottom: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="en-tete-paypal">
+            <div class="img-paypal-box">
+                <img class="img-paypal" src="paypal-logo.png">
+            </div>
+            <div class="menu-pseudo-deroulant">
+                <button class="button-menu">Particuliers <img class="chevron-button" src="chevron-en-bas.png"> </button>
+                <button class="button-menu">Professionnels <img class="chevron-button" src="chevron-en-bas.png"></button>
+                <button class="button-menu">Entreprises <img class="chevron-button" src="chevron-en-bas.png"></button>
+                <button class="button-menu-dev">Développeurs </button>
+            </div>
+            <div class="aide-paypal">
+                <p class="aide-text">Aide</p>
+            </div>
+            <div class="button-paypal">
+                <button class="connexion-paypal">Connexion</button>
+                <button class="ouvrir-un-compte-paypal">Ouvrir un compte</button>
+            </div>
+        </div>
+    </body>
+</html>

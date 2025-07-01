@@ -1,0 +1,52 @@
+.link-to-amazon:hover {
+    color: rgb(241, 124, 28)
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.price {
+    font-weight: bold;
+    color: rgb(60, 173, 45)
+}
+
+.add-amazon {
+    background-color: rgb(241, 238, 8);
+    border: none;
+    height: 32px;
+    width: 140px;
+    border-radius: 16px;
+    font-size: 14px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.add-amazon:hover {
+    background-color: rgb(224, 221, 18);
+}
+
+.add-amazon:active {
+    opacity: 0.3;
+}
+
+.buy-amazon {
+    background-color: rgb(241, 159, 8);
+    border: none;
+    height: 32px;
+    width: 140px;
+    border-radius: 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.buy-amazon:hover {
+    background-color: rgb(255, 145, 0);
+}
+
+.buy-amazon:active {
+    opacity: 0.3;
+}

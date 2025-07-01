@@ -1,0 +1,58 @@
+.button-uber{
+    background-color: rgb(0,0,0);
+    color: white;
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.button-uber:hover {
+    opacity: 0.7;
+}
+
+
+.Save-button{
+    background-color: rgb(255,255,255);
+    color: rgb(10,102,194);
+    border-color: rgb(10,102,194);
+    border-width: 1px;
+    padding-bottom: 6.2px;
+    padding-top: 6.2px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.15s, 
+        border-width 0.15s;
+}
+
+.Save-button:hover {
+    background-color: rgb(229, 233, 236);
+    border-width: 2px;
+}
+
+
+
+.Apply-button{
+    background-color: rgb(10,102,194);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding-bottom: 7.2px;
+    padding-top: 7.2px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 16px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.Apply-button:hover {
+    background-color: rgb(62, 62, 189);
+}

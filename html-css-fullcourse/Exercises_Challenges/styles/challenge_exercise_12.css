@@ -1,0 +1,186 @@
+body {
+    padding-bottom: 1000px;
+}
+
+p {
+    margin: 0px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Css 12e. */
+
+.challenge_box_12e {
+    border-radius: 6px;
+    border-color: rgb(173, 173, 173);
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 400px;
+}
+
+.home_12e {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+}
+
+.button-12e {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(29, 29, 223);
+    border: none;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.text_12e {
+    flex: 1;
+}
+
+/* Css 12f. */
+
+
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(180, 23, 180);
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 1000px;
+    margin-bottom: 200px;
+}
+
+.home-search-bar {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+.home-search-bar-box {
+    margin-left: 40px;
+    margin-right: 90px;
+}
+
+.search-box {
+    flex: 1;
+}
+
+.search {
+    width: 100%;
+    border-radius: 28px;
+    padding-top: 5px;
+    border: none;
+    padding-bottom: 5px;
+    font-size: 16px;
+    padding-left: 25px;
+}
+
+.right-section {
+    margin-left: 90px;
+    margin-right: 10px;
+}
+
+.download-button {
+    font-size: 16px;
+    font-weight: 100;
+    border-style: solid;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+/* 12g */
+
+.box-12g {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+
+.oliver-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.img-oliver {
+    height: 100%;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 60px;
+    margin-left: 20px;
+    margin-right: 25px;
+
+}
+
+.left-section {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-3,
+.text-2,
+.text-1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.type {
+    font-size: 21px;
+    color: gray;
+}
+
+.social {
+    font-size: 18px;
+    color: gray
+}
+
+.button-follow {
+    border: none;
+    color: white;
+    background-color: rgb(77, 139, 255);
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}

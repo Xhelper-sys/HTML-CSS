@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Lesson 11 Exercises - CSS Grid
+        </title>
+    </head>
+    <body>
+        <!-- 11a. Create a grid with 2 columns with widths of 200pxand 75px -->
+        <div style="display: grid; grid-template-columns: 200px 75px;margin-bottom: 100px;">
+            <div style="background-color: lightblue;">200px</div>
+            <div style="background-color: lightpink;">75px</div>
+        </div>
+
+        <!-- 11b. Create a grid with 3 columns. Widths = 50px | remaining space | 75px -->
+        <div style="display:grid; grid-template-columns: 50px 1fr 75px; margin-bottom:100px">
+            <div style="background-color: lightblue;">col1</div>
+            <div style="background-color: lightpink;">col2</div>
+            <div style="background-color: lightblue;">col3</div>
+        </div>
+
+        <!-- Create a grid with 4 equal columns that take up entire page
+        Space between columns = 20px, space between row = 10px-->
+        <div style="display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; column-gap: 20px; row-gap: 10px;">
+            <div style="background-color: lightpink;">col1</div>
+            <div style="background-color: lightpink;">col2</div>
+            <div style="background-color: lightpink;">col3</div>
+            <div style="background-color: lightpink;">col4</div>
+            <div style="background-color: lightpink;">col1</div>
+            <div style="background-color: lightpink;">col2</div>
+            <div style="background-color: lightpink;">col3</div>
+            <div style="background-color: lightpink;">col4</div>
+        </div>
+    </body>
+</html>

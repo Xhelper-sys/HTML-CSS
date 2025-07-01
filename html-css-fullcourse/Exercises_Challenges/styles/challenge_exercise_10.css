@@ -1,0 +1,97 @@
+p{
+                margin-top: 0px;
+                margin-bottom: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .facebook-box {
+                margin-top: 50px;
+                margin-left: 50px;
+                border-color: rgb(39, 255, 57);
+                border-style: solid;
+                border-width: 3px;
+                display: inline-block;
+            }
+
+            .picture-olivier {
+                width: 220px;
+                height: 220px;
+                object-fit: cover;
+                object-position: center;
+            }
+
+            .picture-olivier-box, .olivier-name-box {
+                border-width: 3px;
+                border-color: red;
+                border-style: solid;
+            }
+
+            .profil-olivier-box {
+                border-color: blue;
+                border-style: solid;
+                border-width: 3px;
+                display: inline-block;
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+            }
+
+            .olivier-name{
+                font-weight: 700;
+                font-size: 19px;
+                margin-top: 5px;
+                margin-left: 10px;
+            }
+
+            .picture-mutuale{
+                width: 30px;
+                height: 30px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 15px;
+                margin: 0px;
+            }
+
+            .mutual-friend-box, .button-friends-box {
+                border-style: solid;
+                border-color: red;
+                border-width: 3px;
+            }
+
+            .picture-mutuale-box, .number-mutal-friend-box {
+                display: inline-block;
+                border-color: blue;
+                border-style: solid;
+                border-width: 3px;
+            }
+
+            .number-mutal-friend-box {
+                vertical-align: top;
+                height: 30px;
+                width: 178px;
+            }
+            
+            .picture-mutuale-box {
+                height: 30px;
+            }
+
+            .mutual-friend-text {
+                margin-top: 5px;
+                margin-left: 5px;
+                color: rgb(80, 80, 80);
+                font-weight: 400;
+            }
+
+            .button-friends {
+                color: white;
+                background-color: rgb(53, 102, 235);
+                border: none;
+                padding-right: 18px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 18px;
+                font-weight: 400;
+                margin-top: 5px;
+                margin-left: 8px;
+                margin-bottom: 8px;
+                border-radius: 5px;
+                cursor: pointer;
+            }

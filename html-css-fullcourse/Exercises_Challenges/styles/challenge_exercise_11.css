@@ -1,0 +1,70 @@
+body {
+                padding-top: 50px;
+                padding-left: 50px;
+            }
+
+            p {
+                padding: 0px;
+                margin: 0px
+            }
+
+            .oliver-img {
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+                height: 100%
+            }
+
+            .oliver-name {
+                font-weight: bold;
+                font-size: 20px;
+                font-family: Roboto;
+                margin-left: 6px;
+
+            }
+
+            .oliver-name-bloc{
+                display: grid;
+                justify-items: start;
+                align-items: end;
+            }
+
+            .friend-img{
+                width:100%;
+                object-fit: cover;
+                object-position: center;
+                height: 100%;
+                border-radius: 100px;
+                margin-left: 6px;
+            }
+
+            .mutual-friend-text{
+                display:grid;
+                justify-items: start;
+                align-items: center;
+            }
+
+            .mutual-friend-text{
+                font-size: 14px;
+                font-family: roboto;
+                color: rgb(83, 83, 83);
+            }
+
+            .button-friend {
+                margin-left: 6px;
+                color: white;
+                background-color: rgb(42, 86, 230);
+                border-radius: 5px;
+                border: none;
+                padding-left: 12px;
+                padding-right: 12px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: 15px;
+                cursor: pointer;
+                transition: opacity 0.15s;
+            }
+
+            .button-friend:hover {
+                opacity: 0.6;
+            }

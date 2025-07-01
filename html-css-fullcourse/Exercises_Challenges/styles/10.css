@@ -1,0 +1,248 @@
+p {
+    font-family: Arial;
+}
+
+p, div {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.cat-presentation {
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    display: inline-block;
+    width: 360px;
+    margin-right: 1920px;
+    margin-bottom: 100px;
+}
+
+.img-profil {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 60px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    margin-right: 16px;
+}
+
+.cat-img {
+    border-style: solid;
+    border-color:blue;
+    border-width: 2px;
+    vertical-align: top;
+}
+
+.text-cat {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    width: 206px;
+    vertical-align: top;
+    height: 146px;
+}
+.name-cat {
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+    display: block;
+    height: 43px;
+}
+
+.name-cat-status{
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+    display: block;
+    height: 42px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 60px;
+}
+
+.divers {
+    font-size: 28px;
+    margin-top: 10px;
+    color: rgb(196, 196, 196);
+}
+
+.follow {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    width: 620px;
+    margin-right: 1920px;
+    margin-bottom: 100px;
+}
+
+.img-profil-follow {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.img-follow {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+}
+
+.text-follow {
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    width: 180px;
+    vertical-align: top;
+    height: 104px
+}
+
+.button-follow-bloc{
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    vertical-align: top;
+    height: 104px;
+    width: 288px;
+    text-align: end;
+}
+.button-follow{
+    color: white;
+    font-weight: 700;
+    background-color: rgb(75, 204, 243);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 10px;
+
+}
+
+.text-vertical{
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    display: block;
+    height: 31px;
+}
+
+.title-olivier {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+.type-follow {
+    color: rgb(182, 182, 182);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.categorie-type {
+    font-size: 18px;
+    color: rgb(182, 182, 182);
+    line-height: 36px;
+}
+
+.list-follow {
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    display: inline-block;
+    width: 624px;
+    margin-bottom: 100px;
+    margin-right: 1200px;
+}
+
+.follow-l {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    width: 620px;
+}
+
+.youtube-conteneur {
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.conteneur-chaine-1 , .conteneur-chaine-2, .conteneur-chaine-3 {
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+}
+
+.image-conteneur-1, .image-conteneur-2, .image-conteneur-3 {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+}
+
+.text-conteneur-1, .text-conteneur-2, .text-conteneur-3 {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    vertical-align: top;
+}
+
+.image-yt-1, .image-yt-2, .image-yt-3 {
+    width: 300px;
+    margin-right: 5px;
+}
+
+.titre-1, .titre-2, .titre-3 {
+    font-weight: bold;
+    font-size: 24px;
+    width: 400px;
+}
+
+.titre-1-conteneur, .titre-2-conteneur, .titre-3-conteneur {
+    border-color: red;
+    border-width: 2px;
+    border-style:solid;
+    display:block;
+}
+
+.author-box-1, .author-box-2, .author-box-3{
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    display: block;
+}
+
+.author-text-1, .stat-1, .author-text-2, .stat-2, .author-text-3, .stat-3{
+    font-size: 18px;
+    color: rgb(112, 112, 112);
+    margin-top: 8px;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.stat-box-1,.stat-box-2, .stat-box-3 {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    display: block;
+}
+
+.stat-1, .stat-2, .stat-3 {
+    margin-bottom: 40px;
+    margin-top: 12px;
+}

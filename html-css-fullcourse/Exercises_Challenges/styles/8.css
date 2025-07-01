@@ -1,0 +1,37 @@
+.name-input, .email-input {
+    display: block;
+    margin-bottom: 6px;
+}     
+
+.customer-text {
+    display: inline-block;
+    width: 260px;
+}
+
+.customer-text, .no-button, .yes-button {
+    vertical-align: middle;
+}
+
+.img-google, .search-google{
+    display: block;
+}
+.img-google{
+    margin-top: 100px;
+    width: 300px;
+    margin-left: 802px;
+}
+
+.search-google {
+    width: 450px;
+    margin-top: 14px;
+    margin-left: 727px;
+    font-family: Arial;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    border-radius: 23px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+
+}

@@ -1,0 +1,115 @@
+p {
+    font-family: Arial;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.new {
+    color: rgb(228, 130, 18);
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.laptop {
+    font-weight: bold;
+    font-size: 18px;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+.description-laptop {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price-laptop {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button-buy {
+    vertical-align: middle;
+    cursor: pointer;
+    color: rgb(255,255,255);
+    background-color: rgb(53, 53, 245);
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border-radius: 16px;
+    margin-left: 444px;
+    margin-bottom: 100px;
+}
+
+.price {
+    width: 160px;
+    line-height: 25px;
+}
+
+.number-price {
+    font-weight: bold;
+    font-size: 28px;
+    margin-right: 6px;
+}
+
+.type-price{
+    font-size: 14px;
+    color: rgb(96,96,96);
+}
+
+.profit {
+    color: rgb(59, 211, 29);
+    font-size: 15px;
+}
+
+.bilan {
+    margin-top: 2px;
+    font-size: 14px;
+    margin-bottom:100px
+}
+
+.after-bilan {
+    color: red;
+}
+
+.number-after-bilan {
+    color: rgb(96,96,96);
+}
+
+.name-tweet{
+    font-size: 14px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.adresse-mail {
+    color: rgb(96,96,96);
+    cursor: pointer;
+}
+
+.content-text {
+    margin-top: 4px;
+    width: 480px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 24px;
+}
+
+.id-text {
+    font-size:14px
+}
+
+.adresse-mail-2 {
+    color: rgb(68, 68, 255);
+    cursor: pointer;
+}

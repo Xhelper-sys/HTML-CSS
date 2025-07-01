@@ -1,0 +1,32 @@
+.link-amazon{
+    color: rgb(0, 113, 133);
+}
+
+.title-paragraphe{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.price-paragraphe{
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+}
+
+.ajout-button{
+    background-color: rgb(255,216,20);
+    cursor: pointer;
+    border: none;
+    height: 32px;
+    width: 120px;
+    border-radius: 16px;
+    margin-right: 8px;
+}
+
+.achat-button{
+    background-color: rgb(255,164,28);
+    cursor: pointer;
+    border: none;
+    height: 32px;
+    width: 120px;
+    border-radius: 16px;
+}
