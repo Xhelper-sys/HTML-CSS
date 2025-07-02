@@ -4,73 +4,64 @@
     <head>
         <title>Challenge 7g. Twitter text box</title>
         <style>
-            .img-tweet {
-                width: 78px;
-                height: 78px;
+            body {
+                padding-left: 100px;
+                padding-top: 100px;
+            }
+            
+            .cat4 {
+                width: 80px;
+                height: 80px;
                 object-fit: cover;
                 object-position: center;
-                border-radius: 38px;
+                border-radius: 40px;
                 vertical-align: middle;
             }
 
-            .text-tweet {
-                font-size: 24px;
-                font-family: Arial;
-                display: inline-block;
-                color: rgb(110, 105, 110);
-                margin-left: 20px;
+            .tweet-text {
+                width: 300px;
+                font-size: 18px;
                 vertical-align: middle;
-            }
-
-            .button-tweet {
-                color: rgb(255, 255, 255);
-                background-color: rgb(4, 184, 255);
                 border: none;
+            }
+
+            .tweet-button{
+                vertical-align: middle;
+                color: white;
+                background-color: rgb(16, 139, 255);
                 font-weight: bold;
-                font-size: 22px;
-                font-family: Arial;
-                padding-bottom: 6px;
-                padding-top: 6px;
-                padding-left: 18px;
-                padding-right: 18px;
-                border-radius: 18px;
-                margin-left: 160px;
-                margin-right: 6px;
+                font-size: 16px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 14px;
+                padding-right: 14px;
+                border: none;
                 cursor: pointer;
-                transition: opacity 0.15s;
-                vertical-align: middle;
+                border-radius: 40px;
+                margin-left: 100px;
             }
 
-            .button-tweet:hover {
-                opacity: 0.7;
-            }
-
-            .button-tweet:active {
-                opacity: 0.5;
-            }
-
-            .tweet-zone {
-                vertical-align: middle;
+            .tweet-box {
                 display: inline-block;
-                padding-left: 18px;
-                padding-top: 14px;
-                padding-bottom: 14px;
-                padding-right: 18px;
-                border-radius: 9px;
-                box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-left: 16px;
+                padding-right: 24px;
+                border-radius: 8px;
+                box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.3)
             }
-
-            
 
         </style>
     </head>
     <body>
         <!--9e. Take the design created  in eercise 7g. Wrap it in a <div> and give it a shadow -->
-        <div class="tweet-zone">
-            <img class="img-tweet" src="images/cat.jpg">
-            <p class="text-tweet">What's happening?</p>
-            <button class="button-tweet">Tweet</button>
-        </div> 
+        <div class="tweet-box">
+            <img class="cat4" src="./images/cat.jpg">
+            <input type="search" class="tweet-text" placeholder="What's happening?">
+            <button class="tweet-button">
+                Tweet
+            </button>
+        </div>
     </body>
 </html>
 
