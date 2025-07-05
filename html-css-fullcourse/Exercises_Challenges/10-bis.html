@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Exercise 10 bis
+        </title>
+        <link rel="stylesheet" href="./styles/10-bis.css">
+    </head>
+    <body>
+        <!-- Lesson 10 Exercises - Nested Layouts Technique -->
+        <!-- Using an image editing software , break down the floolwing designs 
+         into a series of vertical and horizontal layouts (like we did in the lesson)
+
+         Download the designs at:
+         https://supersimple.dev/css/nested-layouts-technique -->
+
+        <!-- 10a. Draw the layout for this design -->
+        <img class="a10a" src="./images/10a.png">
+
+        <!-- 10b. Draw the layout-->
+        <img class="b10b" src="./images/10b.png">
+
+        <!-- 10c. Draw the layout-->
+        <img class="c10c" src="./images/10c.png">
+
+        <!-- 10d. Draw the layout-->
+        <img class="d10d" src="./images/10d.png">
+
+        <!-- Challenge Exerise 
+         10e. Build the design in exercise 10d. with code
+         (most of this was already bilt in exercise 9g.)
+
+         - Create vertical layouts with <div>
+
+         - Create horizontall layouts with <div> and 
+           display: inline-block;  -->
+
+        <div class="oliver-box">
+            <div style="display: block;">
+                <img class="oliver-img" src="images/cat.jpg">
+            </div>
+            <div style="display: block;">
+                <p class="oliver-name">
+                    Oliver
+                </p>
+            </div>
+            <div style="display: block; margin-top: 1px;">
+                <div style="display: inline-block;">
+                    <img class="mututal-friend" src="images/dog2.jpg">
+                </div>
+                <div style="display: inline-block;">
+                    <p class="number-mutual">
+                        2 mutual friends
+                    </p>
+                </div>
+            </div>
+            <div style="display: block;">
+                <button class="add-button">
+                    Add Friend
+                </button>
+            </div>
+        </div>
+
+        <div class="oliver-box">
+            <div style="display: block;">
+                <img class="oliver-img" src="images/cat2.jpg">
+            </div>
+            <div style="display: block;">
+                <p class="oliver-name">
+                    Mimi
+                </p>
+            </div>
+            <div style="display: block; margin-top: 1px;">
+                <div style="display: inline-block;">
+                    <img class="mututal-friend" src="images/dog2.jpg">
+                </div>
+                <div style="display: inline-block;">
+                    <p class="number-mutual">
+                        3 mutual friends
+                    </p>
+                </div>
+            </div>
+            <div style="display: block;">
+                <button class="add-button">
+                    Add Friend
+                </button>
+            </div>
+        </div>
+
+        <div class="oliver-box">
+            <div style="display: block;">
+                <img class="oliver-img" src="images/dog.jpg">
+            </div>
+            <div style="display: block;">
+                <p class="oliver-name">
+                    Rex
+                </p>
+            </div>
+            <div style="display: block; margin-top: 1px;">
+                <div style="display: inline-block;">
+                    <img class="mututal-friend" src="images/dog2.jpg">
+                </div>
+                <div style="display: inline-block;">
+                    <p class="number-mutual">
+                        4 mutual friends
+                    </p>
+                </div>
+            </div>
+            <div style="display: block;">
+                <button class="add-button">
+                    Add Friend
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

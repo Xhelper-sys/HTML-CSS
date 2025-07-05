@@ -1,0 +1,87 @@
+body {
+    padding: 100px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.a10a {
+    display: block;
+    width: 600px;
+    padding-bottom: 100px;
+}
+
+.b10b {
+    display: block;
+    width: 600px;
+    padding-bottom: 100px;
+}
+
+.c10c {
+    display: block;
+    width: 600px;
+    padding-bottom: 100px;
+}
+
+.d10d {
+    display: block;
+    width: 600px;
+    padding-bottom: 100px;
+}
+
+.oliver-box {
+    display: inline-block;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 12px;
+}
+
+.oliver-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.oliver-name {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+    margin-left: 6px;
+}
+
+.mututal-friend {
+    width: 22px;
+    height: 22px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+.number-mutual {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: gray;
+    vertical-align: middle;
+}
+
+.add-button {
+    cursor: pointer;
+    color:white;
+    border: none;
+    background-color: rgb(42, 99, 223);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 4px;
+    margin-left: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
