@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      align-item / justify-content
+    </title>
+    <style>
+      body {
+        padding: 100px;
+      }
+
+      p {
+        margin: 0px;
+      }
+
+      .flex-box-row-a {
+        margin-bottom: 300px;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+
+        align-items: end;
+        justify-content: center;
+      }
+
+      .flex-box-column-a {
+        margin-bottom: 300px;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+
+        align-items: end;
+        justify-content: center;
+      }
+
+
+
+
+      .grid-box-column-a {
+        margin-bottom: 300px;
+        display: grid;
+        width: 300px;
+        height: 300px;
+
+        align-items: center;
+        justify-content: end;
+      }
+
+      .grid-box-row-a > div {
+        border: 1px solid black;
+        height: 100px; 
+        writing-mode: vertical-rl;
+        width: 100px;
+      }
+
+
+      .vertical-text {
+      writing-mode: vertical-rl;
+      }
+
+      .grid-box-row-a{
+        margin-bottom: 300px;
+        width: 400px;
+        height: 400px;
+        display: grid;
+        writing-mode: vertical-rl;
+
+        align-items: center;
+        justify-content: end;
+      }
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <!-- align-item -->
+
+    <!-- 
+     The CSS align-items property sets the align-self value on all direct children as a group. 
+     In flexbox, it controls the alignment of items on the cross axis. 
+     In grid layout, it controls the alignment of items on the block axis within their grid areas.
+    -->
+
+    <!--
+    The CSS justify-content property defines how the browser distributes space between and around 
+    content items along the main axis of a flex container and the inline axis of grid and multicol containers.
+    -->
+
+    <div class="flex-box-row-a">
+      <div>
+        <p>
+          Hello
+        </p>
+      </div>
+      <div>
+        <p>
+          World
+        </p>
+      </div>
+    </div>
+
+    <div class="flex-box-column-a">
+      <div>
+        <p>
+          Hello
+        </p>
+      </div>
+      <div>
+        <p>
+          World
+        </p>
+      </div>
+    </div>
+
+
+
+
+    <div class="grid-box-column-a">
+      <div>
+        <p>
+          Hello
+        </p>
+      </div>
+      <div>
+        <p>
+          World
+        </p>
+      </div>
+    </div>
+
+    <div class="grid-box-row-a">
+      <div>
+        <div class="vertical-text">
+          漢字と仮名の文章です。
+        </div>
+      </div> 
+      <div>
+        <div class="vertical-text">
+          漢字と仮名の文章です。
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
