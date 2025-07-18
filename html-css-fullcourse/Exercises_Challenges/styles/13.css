@@ -61,7 +61,6 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: end;
     background-color: lightblue;
     justify-content: space-between;
     width: 200px;
