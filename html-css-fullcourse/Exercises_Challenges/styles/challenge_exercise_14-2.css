@@ -1,0 +1,70 @@
+body {
+    height: 5000px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color:rgb(22, 115, 255) */
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.img-facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.pseudo-facebook {
+    display: inline-block;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+.right-section {
+    display:flex;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.friend-button {
+    color: white;
+    background-color: rgb(24, 105, 255);
+    font-weight: bold;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message-button {
+    color: black;
+    background-color: rgb(238, 238, 238);
+    font-weight: bold;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 8px;    
+}
