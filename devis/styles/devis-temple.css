@@ -1,0 +1,185 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+@page {
+  size: A4;
+  margin: 0px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+
+    width: 900px;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header, .info-company, .info-devis-facture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.date-text {
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+.info-worker, 
+.info-customer, 
+.devis-facture-header, 
+.bellow-left-section, 
+.bellow-right-section, 
+.price-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-company {
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 4px;
+}
+
+.mail {
+    font-weight: bold;
+}
+
+.info-worker p, .info-customer p {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.info-customer {
+    margin-right: 260px;
+}
+
+.info-company {
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.info-devis-facture {
+    align-items: center;
+}
+
+.devis-facture-text {
+    font-weight: bold;
+    color: rgb(107, 136, 161);
+}
+
+.info-more {
+    font-size: 12px;
+}
+
+.right-section {
+    margin-right: 350px;
+}
+
+.column-devis {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(107, 136, 161);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 2px;
+}
+
+.section-1, .section-2 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+}
+
+.section-1 p, .section-2 p{
+    font-size: 11px;
+}
+
+.yellow-section, .white-section {
+    display: grid;
+    grid-template-columns: 50px 550px 45px 65px 55px 63px 72px ;
+}
+
+.yellow-section div {
+    background-color: #F0F1E1;
+}
+
+.white-section div {
+    background-color: white;
+}
+
+.row-devis {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    /* Annnalyser c est proprieter */
+    word-wrap: break-word;     
+    white-space: normal;       
+    overflow-wrap: break-word; 
+}
+
+.row-devis p {
+    font-size: 13px;
+}
+
+.bellow-page {
+    margin-top: 200px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.bellow-left-section, .bellow-right-section {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price-box {
+    background-color: rgb(107, 136, 161);
+    justify-content: space-between;
+    height: 96px;
+    width: 200px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.total-price {
+    color: white;
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+
+.total-buy {
+    display: flex;
+    justify-content: end;
+}
+
+.total-buy-text {
+    color: black;
+    font-size: 11px;
+    margin-top: 4px;
+}
