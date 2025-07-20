@@ -1,0 +1,62 @@
+body {
+    height: 3000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.shirt-box {
+    display: inline-block;
+    position: relative;
+}
+
+.shirt-img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position:center;
+}
+
+.sold {
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.buy-box {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 100px;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-add {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    
+}

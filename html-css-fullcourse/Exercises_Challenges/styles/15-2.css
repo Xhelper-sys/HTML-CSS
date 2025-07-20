@@ -1,0 +1,43 @@
+body {
+    height: 4000px;
+}
+
+.a15-box {
+    position: absolute;
+    background-color: black;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    right: 10px;
+    left: -16px;
+    top: -18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.b15-box {
+    width: 320px;
+    height: 180px;
+    background-color: gray;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.timestamp {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: black;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 14px;
+}
