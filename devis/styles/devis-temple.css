@@ -8,16 +8,9 @@ p {
     margin: 0px;
 }
 
-@page {
-  size: A4;
-  margin: 0px;
-}
-
 .page {
     display: flex;
     flex-direction: column;
-
-    width: 900px;
 
     border-style: solid;
     border-color: black;
@@ -26,6 +19,9 @@ p {
     padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 50px;
+
+    width: 21cm;
 }
 
 .header, .info-company, .info-devis-facture {
@@ -38,7 +34,21 @@ p {
 .date-text {
     margin-top: 20px;
     margin-right: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
+.date-text input {
+    width: 18px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 0px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 2px 0px 2px;
+}
+
 
 .info-worker, 
 .info-customer, 
@@ -119,7 +129,7 @@ p {
 
 .yellow-section, .white-section {
     display: grid;
-    grid-template-columns: 50px 550px 45px 65px 55px 63px 72px ;
+    grid-template-columns: 50px 443px 45px 65px 55px 63px 72px ;
 }
 
 .yellow-section div {
@@ -140,6 +150,7 @@ p {
     word-wrap: break-word;     
     white-space: normal;       
     overflow-wrap: break-word; 
+    min-height: 18px;
 }
 
 .row-devis p {
@@ -190,9 +201,15 @@ p {
     background-color: rgba(255, 255, 255, 0);
     border: none;
     padding: 0px;
-    width: 90%;
+    width: 80%;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    bottom: 2px;
 }
 
+
+
+.total-price-top {
+    color: white;
+    font-size: 11px;
+    margin-bottom: 2px;
+}
