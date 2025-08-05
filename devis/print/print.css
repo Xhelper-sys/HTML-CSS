@@ -1,0 +1,7 @@
+@media print {
+    @page {
+    size: A4;
+    margin: -20px 0px 0px 40px;
+    padding: 0;
+    }
+}
