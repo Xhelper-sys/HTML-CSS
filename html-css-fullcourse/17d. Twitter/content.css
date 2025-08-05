@@ -1,0 +1,76 @@
+.color-svg {
+  fill: white;
+}
+
+.header-content {
+  padding-top: 90px;
+  display: flex;
+  height: 664px;
+  flex-direction: row;
+}
+
+.svg-container {
+  width: 56%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-text {
+  color: white;
+  font-weight: 900;
+  font-size: 68px;
+  letter-spacing: 0.5px;
+  width: 500px;
+  margin-top: 24px;
+  line-height: 90px;
+  margin-bottom: 30px;
+}
+
+.inscription-text {
+  color: white;
+  font-weight: 700;
+  font-size: 37px;
+}
+
+.button-google {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: center;
+
+  border: none;
+  background-color: white;
+
+}
+
+
+
+.img-google {
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 40px;
+}
+
+.button-google-box-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.connexion-text {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: rgb(10, 10, 10);
+  font-weight: 500;
+}
+
+.email {
+  color: rgb(58, 58, 58);
+  font-size: 11px;
+  letter-spacing: 0.5px; /*
+  padding-right: 80px; */
+  text-align: left;
+}
