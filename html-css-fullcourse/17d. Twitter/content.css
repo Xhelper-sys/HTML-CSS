@@ -42,14 +42,25 @@
 
   border: none;
   background-color: white;
+  cursor: pointer;
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 9px;
+  padding-right: 8px;
+
+  border-radius: 30px;
+
+  margin-top: 28px;
+  margin-bottom: 18px;
 
 }
 
 
 
 .img-google {
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
   object-fit: cover;
   object-position: center;
   border-radius: 40px;
@@ -58,6 +69,8 @@
 .button-google-box-text {
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
+  margin-right: 40px;
 }
 
 .connexion-text {
@@ -70,7 +83,39 @@
 .email {
   color: rgb(58, 58, 58);
   font-size: 11px;
-  letter-spacing: 0.5px; /*
-  padding-right: 80px; */
+  letter-spacing: 0.5px;
   text-align: left;
+}
+
+.apple-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  padding-left: 68px;
+  padding-right: 68px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.apple-button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-apple, .apple-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.apple-text {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
 }
