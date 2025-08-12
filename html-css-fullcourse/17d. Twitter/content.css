@@ -203,7 +203,51 @@
   font-size: 15px;
 }
 
+.bottom-content {
+  display: flex;
+  flex: 1;
+  height: 135px;
+  margin-top: 20px;
+  align-items: end;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.bottom-content-a-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  row-gap: 10px;
+  color: rgb(78, 82, 87);
+  font-size: 12px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  justify-content: center;
+}
+
+.bottom-content-a-section p {
+  font-size: 14px;
+}
+
+.bottom-content-a-section .years-text {
+  font-size: 12px;
+}
+
 .bottom-content-a-section a {
-  display: inline-block;
-  color: white;
+  text-decoration: none;
+  color: rgb(78, 82, 87);
+}
+
+.bottom-content-a-section .link-box{
+  margin-top: 1px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.link-text:hover {
+  text-decoration: underline;
 }
