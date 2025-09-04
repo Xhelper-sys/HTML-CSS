@@ -1,0 +1,48 @@
+.header {
+    background-color: white;
+
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    height: 56px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.right-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-logo {
+    width: 44px;
+    height: 44px;
+}
+
+.search-bar-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    height: 70%;
+}
+
+.magnifying-glass-icons {
+    width: 21px;
+    height: 21px;
+}
+
+.search-bar {
+    border: none;
+    background-color: transparent;
+    letter-spacing: 0.5px;
+    margin-right: 20px;
+    width: 300px;
+}
